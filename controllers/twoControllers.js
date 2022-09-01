@@ -24,7 +24,7 @@ module.exports = {
       })
       .catch(err => res.status(422).json(err));
   },
-  createTwo: function (req, res) {
+  create: function (req, res) {
     console.log(`adding... ${req.body}`);
     db.Two
       .create(req.body)

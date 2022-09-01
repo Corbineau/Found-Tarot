@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const Controller = require("../../../thisapp/controllers");
+const Controller = require("../../../Found-Tarot/controllers");
 
 router
   .route("/")
@@ -8,7 +8,7 @@ router
 
 router
   .route("/:id")
-  .get(Controller.Two.findById);
+  .get(Controller.Two.findByName);
   
 
 module.exports = router;

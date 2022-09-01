@@ -1,6 +1,6 @@
 const express = require("express");
 const path = require("path");
-const routes = require("../thisApp/routes");
+const routes = require("../Found-Tarot/routes");
 const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
 

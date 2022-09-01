@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const Controller = require("../../../thisapp/controllers");
+const Controller = require("../../../Found-Tarot/controllers");
 
 router.route("/").get(Controller.One.findAll);
 
