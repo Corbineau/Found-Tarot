@@ -44,7 +44,7 @@
     "nodemon": "^2.0.20"
   },
   "dependencies": {
-    "axios": "^0.27.2",
+    "axios": "^1.0.0",
     "body-parser": "^1.19.0",
     "browserify": "^17.0.0",
     "dotenv": "^16.0.3",
