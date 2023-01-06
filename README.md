@@ -1,2 +1,2 @@
-# reactTemplate
-React app with server and all that jazz.
+# Found Tarot
+Tarot reader with open source cards.
